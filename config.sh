@@ -2,7 +2,7 @@
 
 # Device
 export TWRP_BRANCH="twrp-12.1"
-export DT_LINK="https://github.com/Spector0/Device_Oneplus_Oscar_TWRP -b fox_11.0"
+export DT_LINK="https://github.com/Spector0/Device_Oneplus_Oscar_TWRP -b Test"
 
 export DEVICE="oscar"
 export OEM="oneplus"
@@ -11,7 +11,7 @@ export OEM="oneplus"
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
 ## "bootimage" - for A/B devices without recovery partition (and without vendor boot)
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
-export TARGET="bootimage"
+export TARGET="vendorbootimage"
 
 export OUTPUT="TWRP*.zip"
 
